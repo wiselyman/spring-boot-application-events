@@ -41,7 +41,6 @@ application.run(args);
 
 #### 2.2. `SpringApplicationBuilder.listeners(...)`
 
-`src/main/resources/META-INF/spring.factories`下：
 
 ``` java
 new SpringApplicationBuilder()
@@ -59,6 +58,9 @@ new SpringApplicationBuilder()
 ```
 
 #### 2.3. `META-INF/spring.factories`
+
+`src/main/resources/META-INF/spring.factories`：
+
 
 ```
 org.springframework.context.ApplicationListener=top.wisely.startevents.listeners.ApplicationContextInitializedEventListener, \
