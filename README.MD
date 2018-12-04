@@ -81,4 +81,4 @@ public class ApplicationStartedEventListener implements ApplicationListener<Appl
 ```
 
 ### 源码地址
-![https://github.com/wiselyman/spring-boot-application-events.git](https://github.com/wiselyman/spring-boot-application-events.git)
+[https://github.com/wiselyman/spring-boot-application-events.git](https://github.com/wiselyman/spring-boot-application-events.git)
