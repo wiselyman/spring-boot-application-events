@@ -39,6 +39,8 @@ application.run(args);
 
 #### 2. `SpringApplicationBuilder.listeners(...)`
 
+`src/main/resources/META-INF/spring.factories`下：
+
 ``` java
 new SpringApplicationBuilder()
             .sources(StartEventsApplication.class)
