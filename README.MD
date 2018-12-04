@@ -23,7 +23,7 @@
 
 我们可以通过下面的方式注册监听：
 
-#### 1. `SpringApplication.addListeners(...)`
+#### 2.1. `SpringApplication.addListeners(...)`
 
 ``` java
 SpringApplication application = new SpringApplication(StartEventsApplication.class);
@@ -39,7 +39,7 @@ application.run(args);
 
 ```
 
-#### 2. `SpringApplicationBuilder.listeners(...)`
+#### 2.2. `SpringApplicationBuilder.listeners(...)`
 
 `src/main/resources/META-INF/spring.factories`下：
 
@@ -58,7 +58,7 @@ new SpringApplicationBuilder()
 
 ```
 
-#### 3. `META-INF/spring.factories`
+#### 2.3. `META-INF/spring.factories`
 
 ```
 org.springframework.context.ApplicationListener=top.wisely.startevents.listeners.ApplicationContextInitializedEventListener, \
@@ -80,5 +80,5 @@ public class ApplicationStartedEventListener implements ApplicationListener<Appl
 }
 ```
 
-### 源码地址
+### 3. 源码地址
 [https://github.com/wiselyman/spring-boot-application-events.git](https://github.com/wiselyman/spring-boot-application-events.git)
