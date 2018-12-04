@@ -1,0 +1,6 @@
+org.springframework.context.ApplicationListener=top.wisely.startevents.listeners.ApplicationContextInitializedEventListener, \
+                                                top.wisely.startevents.listeners.ApplicationEnvironmentPreparedEventListener, \
+                                                top.wisely.startevents.listeners.ApplicationPreparedEventListener, \
+                                                top.wisely.startevents.listeners.ApplicationReadyEventListener, \
+                                                top.wisely.startevents.listeners.ApplicationStartedEventListener, \
+                                                top.wisely.startevents.listeners.ApplicationStartingEventListener
